@@ -1,0 +1,11 @@
+PRUEBA ROTACIÓN
+
+./bin/pruebarotacion datos/imagenes/aviones/avion1.ppm 180 datos/imagenes/aviones/avion1_180.ppm
+
+
+PRUEBA PEGADO IMAGEN
+
+./bin/pruebapegado datos/imagenes/banderas/espana_reshigh.ppm datos/imagenes/aviones/avion2.ppm datos/imagenes/aviones/mascara_avion2.pgm datos/imagenes/aviones/pruebaOpacoEspana.ppm 0 0 0
+
+
+./bin/ruta_aerea datos/paises.txt datos/imagenes/mapas/mapa1.ppm datos/imagenes/banderas/ datos/almacen_rutas.txt datos/imagenes/aviones/avion1.ppm datos/imagenes/aviones/mascara_avion1.pgm
